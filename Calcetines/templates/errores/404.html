@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Error 404 - Perdido en el Ciberespacio</title>
+    <style>
+        /* Reset de márgenes y paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo general del cuerpo */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ff4d4d; /* Fondo rojo */
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Estilo del contenedor */
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Estilos para los encabezados */
+        h1 {
+            font-size: 4em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            font-size: 1.5em;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo para el mensaje de texto */
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo para el enlace de regreso */
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            background-color: #333333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+            display: inline-block;
+        }
+
+        /* Efecto al pasar el mouse sobre el enlace */
+        a:hover {
+            background-color: #222222;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <h2>Vaya, esto no es lo que esperabas, ¿verdad?</h2>
+        <p>Parece que esta página se ha perdido, o simplemente nunca existió.</p>
+        <a href="{% url 'index' %}">Volver a la página de inicio</a>
+    </div>
+</body>
+</html>

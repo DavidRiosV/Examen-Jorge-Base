@@ -1,0 +1,708 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add calcetin",
+        "content_type": 7,
+        "codename": "add_calcetin"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change calcetin",
+        "content_type": 7,
+        "codename": "change_calcetin"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete calcetin",
+        "content_type": 7,
+        "codename": "delete_calcetin"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view calcetin",
+        "content_type": 7,
+        "codename": "view_calcetin"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add cliente",
+        "content_type": 8,
+        "codename": "add_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change cliente",
+        "content_type": 8,
+        "codename": "change_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete cliente",
+        "content_type": 8,
+        "codename": "delete_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view cliente",
+        "content_type": 8,
+        "codename": "view_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add cuenta banco",
+        "content_type": 9,
+        "codename": "add_cuentabanco"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change cuenta banco",
+        "content_type": 9,
+        "codename": "change_cuentabanco"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete cuenta banco",
+        "content_type": 9,
+        "codename": "delete_cuentabanco"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view cuenta banco",
+        "content_type": 9,
+        "codename": "view_cuentabanco"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add votacion",
+        "content_type": 10,
+        "codename": "add_votacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change votacion",
+        "content_type": 10,
+        "codename": "change_votacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete votacion",
+        "content_type": 10,
+        "codename": "delete_votacion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view votacion",
+        "content_type": 10,
+        "codename": "view_votacion"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "Calcetines",
+        "model": "calcetin"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "Calcetines",
+        "model": "cliente"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "Calcetines",
+        "model": "cuentabanco"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "Calcetines",
+        "model": "votacion"
+    }
+},
+{
+    "model": "Calcetines.calcetin",
+    "pk": 1,
+    "fields": {
+        "modelo": "Rojo",
+        "precio": 5.0,
+        "fecha_creacion": "2024-11-05T08:10:42.114"
+    }
+},
+{
+    "model": "Calcetines.calcetin",
+    "pk": 2,
+    "fields": {
+        "modelo": "Azul",
+        "precio": 5.0,
+        "fecha_creacion": "2024-11-05T08:10:42.114"
+    }
+},
+{
+    "model": "Calcetines.calcetin",
+    "pk": 3,
+    "fields": {
+        "modelo": "Amarillo",
+        "precio": 5.0,
+        "fecha_creacion": "2024-11-05T08:10:42.114"
+    }
+},
+{
+    "model": "Calcetines.calcetin",
+    "pk": 4,
+    "fields": {
+        "modelo": "Morado",
+        "precio": 5.0,
+        "fecha_creacion": "2024-11-05T08:10:42.114"
+    }
+},
+{
+    "model": "Calcetines.calcetin",
+    "pk": 5,
+    "fields": {
+        "modelo": "Negro",
+        "precio": 5.0,
+        "fecha_creacion": "2024-11-05T08:10:42.114"
+    }
+},
+{
+    "model": "Calcetines.cliente",
+    "pk": 1,
+    "fields": {
+        "nombre": "Juan",
+        "contraseña": "Juan1234",
+        "saldo": 100,
+        "fecha_registro": "2024-11-05T08:10:42.114"
+    }
+},
+{
+    "model": "Calcetines.cliente",
+    "pk": 2,
+    "fields": {
+        "nombre": "Sara",
+        "contraseña": "Sara1234",
+        "saldo": 25,
+        "fecha_registro": "2024-11-05T08:10:42.114"
+    }
+},
+{
+    "model": "Calcetines.cliente",
+    "pk": 3,
+    "fields": {
+        "nombre": "Jorge",
+        "contraseña": "jorgeprofesor",
+        "saldo": 400,
+        "fecha_registro": "2024-11-05T08:10:42.114"
+    }
+},
+{
+    "model": "Calcetines.cliente",
+    "pk": 4,
+    "fields": {
+        "nombre": "Manuel",
+        "contraseña": "Manuel0987",
+        "saldo": 900,
+        "fecha_registro": "2024-11-05T08:10:42.114"
+    }
+},
+{
+    "model": "Calcetines.cliente",
+    "pk": 5,
+    "fields": {
+        "nombre": "David",
+        "contraseña": "quieroaprobar",
+        "saldo": 50,
+        "fecha_registro": "2024-11-05T08:10:42.114"
+    }
+},
+{
+    "model": "Calcetines.votacion",
+    "pk": 1,
+    "fields": {
+        "cliente": 1,
+        "calcetin": 1,
+        "valoracion": 0,
+        "comentario": "No me gustaron nada",
+        "fecha_votacion": "2024-11-05T08:10:42.133"
+    }
+},
+{
+    "model": "Calcetines.votacion",
+    "pk": 2,
+    "fields": {
+        "cliente": 2,
+        "calcetin": 5,
+        "valoracion": 1,
+        "comentario": null,
+        "fecha_votacion": "2024-11-05T08:10:42.138"
+    }
+},
+{
+    "model": "Calcetines.votacion",
+    "pk": 3,
+    "fields": {
+        "cliente": 3,
+        "calcetin": 1,
+        "valoracion": 3,
+        "comentario": null,
+        "fecha_votacion": "2024-11-05T08:10:42.142"
+    }
+},
+{
+    "model": "Calcetines.votacion",
+    "pk": 4,
+    "fields": {
+        "cliente": 3,
+        "calcetin": 5,
+        "valoracion": 4,
+        "comentario": "Son agradables",
+        "fecha_votacion": "2024-11-05T08:10:42.143"
+    }
+},
+{
+    "model": "Calcetines.votacion",
+    "pk": 5,
+    "fields": {
+        "cliente": 4,
+        "calcetin": 4,
+        "valoracion": 5,
+        "comentario": null,
+        "fecha_votacion": "2024-11-05T08:10:42.147"
+    }
+},
+{
+    "model": "Calcetines.votacion",
+    "pk": 6,
+    "fields": {
+        "cliente": 5,
+        "calcetin": 4,
+        "valoracion": 0,
+        "comentario": null,
+        "fecha_votacion": "2024-11-05T08:10:42.151"
+    }
+},
+{
+    "model": "Calcetines.votacion",
+    "pk": 7,
+    "fields": {
+        "cliente": 5,
+        "calcetin": 3,
+        "valoracion": 5,
+        "comentario": "Send hold issue eight computer floor sit region. Maybe imagine style speak traditional use cold. Lot practice create ten. Apply technology such crime include.",
+        "fecha_votacion": "2024-11-05T08:10:42.115"
+    }
+},
+{
+    "model": "Calcetines.votacion",
+    "pk": 8,
+    "fields": {
+        "cliente": 2,
+        "calcetin": 5,
+        "valoracion": 0,
+        "comentario": "Much play media cause as. Race week general admit bag.\nJob position him receive give. Simply card anyone everyone sure.",
+        "fecha_votacion": "2024-11-05T08:10:42.115"
+    }
+},
+{
+    "model": "Calcetines.votacion",
+    "pk": 9,
+    "fields": {
+        "cliente": 4,
+        "calcetin": 4,
+        "valoracion": 2,
+        "comentario": "Let choose student true fall skill ever. Include break within could officer where lay education.\nKid network son good. Partner article painting weight. Look eight inside husband.",
+        "fecha_votacion": "2024-11-05T08:10:42.115"
+    }
+},
+{
+    "model": "Calcetines.votacion",
+    "pk": 10,
+    "fields": {
+        "cliente": 3,
+        "calcetin": 1,
+        "valoracion": 4,
+        "comentario": "Real eat will heart open same body. Outside myself reveal management use clearly. Election major who across on figure system. Receive explain industry teach.",
+        "fecha_votacion": "2024-11-05T08:10:42.115"
+    }
+},
+{
+    "model": "Calcetines.votacion",
+    "pk": 11,
+    "fields": {
+        "cliente": 3,
+        "calcetin": 1,
+        "valoracion": 2,
+        "comentario": "Positive interest evening the hundred other.\nLine fact doctor address. Whatever writer themselves those cup exist drop. List serious well likely manage.",
+        "fecha_votacion": "2024-11-05T08:10:42.115"
+    }
+},
+{
+    "model": "Calcetines.cuentabanco",
+    "pk": 1,
+    "fields": {
+        "cliente": 2,
+        "nombre": "C",
+        "numero_cuenta": "Subject start site.",
+        "creacion_cuenta": "2024-11-05"
+    }
+},
+{
+    "model": "Calcetines.cuentabanco",
+    "pk": 2,
+    "fields": {
+        "cliente": 3,
+        "nombre": "U",
+        "numero_cuenta": "1234",
+        "creacion_cuenta": "2024-11-05"
+    }
+},
+{
+    "model": "Calcetines.cuentabanco",
+    "pk": 3,
+    "fields": {
+        "cliente": 5,
+        "nombre": "B",
+        "numero_cuenta": "5060",
+        "creacion_cuenta": "2024-11-05"
+    }
+},
+{
+    "model": "Calcetines.cuentabanco",
+    "pk": 4,
+    "fields": {
+        "cliente": 4,
+        "nombre": "C",
+        "numero_cuenta": "0000",
+        "creacion_cuenta": "2024-11-05"
+    }
+},
+{
+    "model": "Calcetines.cuentabanco",
+    "pk": 5,
+    "fields": {
+        "cliente": 1,
+        "nombre": "C",
+        "numero_cuenta": "4505",
+        "creacion_cuenta": "2024-11-05"
+    }
+}
+]
